@@ -24,7 +24,7 @@
     <h1>NON Official Zigbee2MQTT Home Assistant addon</h1>
 </div>
 
-##This is a copy
+## This is a copy
 This is a copy made to be able to use multiple instances in HA. Original Source: https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation
 
 ## Installation
