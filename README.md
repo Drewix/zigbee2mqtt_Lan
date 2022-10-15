@@ -23,8 +23,10 @@
     </div>
     <h1>NON Official Zigbee2MQTT Home Assistant addon</h1>
 </div>
+
 ##This is a copy
 This is a copy made to be able to use multiple instances in HA. Original Source: https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation
+
 ## Installation
 1. If you don't have a MQTT broker yet; in Home Assistant go to **Settings → Add-ons → Add-on store** and install the **Mosquitto broker** addon.
 1. Go back to the **Add-on store**, click **⋮ → Repositories**, fill in</br>  `https://github.com/zigbee2mqtt/hassio-zigbee2mqtt` and click **Add → Close**.
