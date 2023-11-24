@@ -21,7 +21,7 @@
             <img src="https://img.shields.io/discourse/https/zigbee2mqtt.discourse.group/status.svg">
         </a>
     </div>
-    <h1>Official Zigbee2MQTT Home Assistant addon</h1>
+    <h1>NON Official Zigbee2MQTT Home Assistant addon x9</h1>
 </div>
 
 ## Installation
