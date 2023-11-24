@@ -2,7 +2,7 @@
 By default the add-on has `permit_join` set to `false`. To allow devices to join you need to activate this after the add-on has started. You can now use the [built-in frontend](https://www.zigbee2mqtt.io/information/frontend.html) to achieve this. For details on how to enable the built-in frontent see the next section.
 
 # Enabling the built-in frontend
-Enable `ingress` to have the frontend available in your UI: **Supervisor → Dashboard → Zigbee2MQTT → Show in sidebar**. You can find more details about the feature on the [Zigbee2MQTT documentation](https://www.zigbee2mqtt.io/information/frontend.html).
+Enable `ingress` to have the frontend available in your UI: **Settings → Add-ons → Zigbee2MQTT → Show in sidebar**. You can find more details about the feature on the [Zigbee2MQTT documentation](https://www.zigbee2mqtt.io/information/frontend.html).
 
 # Configuration
 Configuration required to startup Zigbee2MQTT is available from the addon configuration. The rest of the options can be configured via the Zigbee2MQTT frontend.
@@ -12,7 +12,7 @@ The add-on will create a backup of your configuration.yml within your data path:
 The backup of your configuration is created on add-on startup if no previous backup was found. 
 
 # Enabling zigbee-herdsman debug logging
-If you want to troubleshoot in more depth problems with your zigbee devics, sometimes you must enable DEBUG option on Zigbee2MQTT startup. To do this you must set `zigbee_herdsman_debug` to `true`.
+If you want to troubleshoot in more depth problems with your zigbee devices, sometimes you must enable DEBUG option on Zigbee2MQTT startup. To do this you must set `zigbee_herdsman_debug` to `true`.
 
 ```yaml
 zigbee_herdsman_debug: true

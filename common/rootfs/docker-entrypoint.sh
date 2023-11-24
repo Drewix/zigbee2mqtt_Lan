@@ -52,12 +52,17 @@ if ! bashio::fs.file_exists "$ZIGBEE2MQTT_DATA/configuration.yaml"; then
 
     cat <<EOF > "$ZIGBEE2MQTT_DATA/configuration.yaml"
 homeassistant: true
+advanced:
+  network_key: GENERATE
+  pan_id: GENERATE
+  ext_pan_id: GENERATE
 EOF
 fi
 
 if bashio::config.true 'zigbee_herdsman_debug'; then
     bashio::log.info "Zigbee Herdsman debug logging enabled"
     export DEBUG="zigbee-herdsman:*"
+    export NODE_OPTIONS=--trace-warnings
 fi
 export NODE_PATH=/app/node_modules
 export ZIGBEE2MQTT_CONFIG_FRONTEND='{"port": 8099}'
